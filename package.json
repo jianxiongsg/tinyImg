@@ -1,10 +1,10 @@
 {
   "name": "jxtinyimg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "src/main.js",
   "scripts": {
-    "prepublishOnly": "autover && tsc  && dos2unix dist/main.js"
+    
   },
   "bin": {
     "jxtiny": "./src/main.js"
