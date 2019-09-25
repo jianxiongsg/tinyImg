@@ -1,0 +1,21 @@
+{
+  "name": "jxtinyimg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "prepublishOnly": "autover && tsc  && dos2unix dist/main.js"
+  },
+  "bin": {
+    "jxtiny": "./src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "md5": "^2.2.1",
+    "mkdirp": "^0.5.1",
+    "ttimg": "^1.0.8"
+  }
+}
