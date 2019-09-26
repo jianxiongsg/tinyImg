@@ -5,6 +5,7 @@ let cv = require('./convert');
 
 function start(){
     var args = process.argv.splice(1);
+    console.log(args[0])
     if(!args[0]){
         return;
     }
